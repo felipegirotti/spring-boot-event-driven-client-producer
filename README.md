@@ -49,10 +49,10 @@ mvn clean package
 
 After that just build the image (pay attention on the file of jar):    
 ```bash
-docker build . -t {{REPLACE_YOUR_DOCKER_HUB_NAME}}/place-java-example --build-arg JAR_FILE=target/place-0.0.1-SNAPSHOT.jar
+docker build . -t {{REPLACE_YOUR_DOCKER_HUB_NAME}}/client-java-example --build-arg JAR_FILE=target/client-0.0.1-SNAPSHOT.jar
 ```
 
 And push the image to [DockerHub](https://hub.docker.com/)  
 ```bash
-docker push {{REPLACE_YOUR_DOCKER_HUB_NAME}}/place-java-example
+docker push {{REPLACE_YOUR_DOCKER_HUB_NAME}}/client-java-example
 ```
