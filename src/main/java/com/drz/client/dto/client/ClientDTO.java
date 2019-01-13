@@ -15,4 +15,10 @@ public class ClientDTO {
 
     @NotNull
     private String name;
+
+    @NotNull
+    private Double latitude;
+
+    @NotNull
+    private Double longitude;
 }

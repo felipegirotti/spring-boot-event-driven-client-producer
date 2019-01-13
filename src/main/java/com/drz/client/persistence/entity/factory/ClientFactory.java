@@ -6,7 +6,6 @@ import com.drz.client.persistence.entity.Client;
 public class ClientFactory {
 
     public static Client create(ClientDTO clientDTO) {
-        return new Client(clientDTO.getId(), clientDTO.getName());
-
+        return new Client(clientDTO.getId(), clientDTO.getName(), clientDTO.getLatitude(), clientDTO.getLongitude());
     }
 }

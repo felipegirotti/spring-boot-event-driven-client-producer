@@ -27,3 +27,4 @@
 .env
 
 docker/mysql/data
+docker/es
